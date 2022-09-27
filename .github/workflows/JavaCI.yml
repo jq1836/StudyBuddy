@@ -28,4 +28,4 @@ jobs:
           java-package: jdk+fx
           
       - name: Build and check with Gradle
-        run: ./gradlew check coverage
+        run: ./gradlew check
