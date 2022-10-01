@@ -29,12 +29,12 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.example.studybuddy'
-    mainClass = 'com.example.studybuddy.HelloApplication'
+    mainModule = 'studybuddy.application'
+    mainClass = 'studybuddy.application.Launcher'
 }
 
 javafx {
-    version = '11.0.2'
+    version = '18'
     modules = ['javafx.controls', 'javafx.fxml']
 }
 
