@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homePane" minHeight="480" minWidth="720" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studybuddy.application.ui.HomePane">
+   <children>
+      <Label fx:id="welcomeLabel" alignment="CENTER" minHeight="480.0" minWidth="720.0" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,7 +1,5 @@
 package studybuddy.application;
 
-import java.io.IOException;
-
 import javafx.application.Application;
 import javafx.stage.Stage;
 import studybuddy.application.ui.UiManager;
@@ -20,7 +18,7 @@ public class App extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
         uiManager.start(stage);
     }
 
